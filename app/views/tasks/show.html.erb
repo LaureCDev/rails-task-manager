@@ -1,0 +1,15 @@
+<h1> TASK MANAGER</h1>
+
+<h2> Détails de la tâche sélectionnée : </h2>
+
+  <form>
+    <input type="checkbox">
+    <%=  @task.title %> - <%= @task.details %>
+   <button> <%= link_to "Retour aux tâches", tasks_path %>  </button>
+
+  </form>
+
+
+<%= link_to task_path(@task.id), data: {turbo_method: :delete, turbo_confirm: "Do you want to delete the task?"} do %>
+    <i class="fa-solid fa-trash"></i>
+  <% end %>

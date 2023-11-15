@@ -13,3 +13,44 @@
  *= require_tree .
  *= require_self
  */
+.puces{
+  list-style: none;
+}
+
+body{
+  margin: 30px auto;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1{
+  font-size: 3em;
+  font-weight: 500;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  text-align: center;
+  text-shadow: 1px 3px #0496ff;
+  color: #131b23;
+  margin-bottom: 50px;
+}
+
+h2{
+  font-family: "roboto";
+  font-size: 2em;
+  color: #E4E824;
+  text-shadow: 1px 1px #131b23;
+}
+
+a{
+  text-decoration: none;
+  color: #131b23;
+  font-size: 1.4em;
+  margin-left: 15px;
+  color:rgb(from color r g b);
+}
+
+a:hover{
+  color: #04e824;
+  text-shadow: 1px #131b23;

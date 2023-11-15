@@ -1,0 +1,12 @@
+<h1> TASK MANAGER </h1>
+
+<h2> MY TASKS </h2>
+
+<ul>
+<% @tasks.each do |task |%>
+  <li class="puces">
+    <input type="checkbox">
+    <%= link_to task.title, task_path(task) %>
+  </li>
+<% end %>
+</ul>
